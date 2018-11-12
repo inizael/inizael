@@ -21,7 +21,7 @@
     </div>
     <div id="navbar">
         <ul class="navbar">
-            <li>
+            <li title="Inicio">
                 <span class="sxc_logo white nav">
                 </span>
             </li>
