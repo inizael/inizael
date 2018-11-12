@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    body #navbar {
+        top: 0px;
+        width: 100%;
+        height: 50px;
+        left: 0px;
+        border-radius: 0px;
+    }
+        body #navbar ul.navbar{
+            flex-direction: row;
+        }
+            body #navbar ul.navbar li {
+                height: 100%;
+                font-size: 20px !important;
+            }
+}

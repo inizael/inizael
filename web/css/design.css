@@ -1,3 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* LOGO */
+    
+    .sxc_logo:before {
+        content: "sxc";
+        font-family: grotes;
+    }
+        .sxc_logo.nav {
+            display: flex;
+            width: 90px;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+/* LOGO */
+
 body {
     background-color: black;
 }
+    body #views {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: white;
+    }
+    body #navbar {
+        position: fixed;
+        width: 90px;
+        height: 80%;
+        background-color: black;
+        left: 20px;
+        top: 10px;
+        border-radius: 45px;
+        box-shadow: 13px 11px 20px 0px rgba(0, 0, 0, 0.16);
+    }
+        body #navbar ul.navbar {
+            list-style: none;
+            color: white;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+        }
+            body #navbar ul.navbar li {
+                height: 90px;
+                flex-grow: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                cursor: pointer;
+            }

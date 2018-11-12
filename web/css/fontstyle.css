@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "segoe";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/segoe/SEGOEUIL.eot?#iefix") format("embedded-opentype"), url("../fonts/segoe/SEGOEUIL.woff") format("woff"), url("../fonts/segoe/SEGOEUIL.ttf") format("truetype");
+}
+.segoe-n {
+  font-family: segoe;
+  font-weight: normal;
+   text-transform: none;
+}
+.segoe-u {
+  font-family: segoe;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: "grotes";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/grotes/neuzeitgro-bla-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/grotes/neuzeitgro-bla-webfont.woff") format("woff"), url("../fonts/grotes/neuzeitgro-bla-webfont.ttf") format("truetype"), url("../fonts/grotes/neuzeitgro-bla-webfont.svg#neuzeit_groteskblack") format("svg");
+}
+.grotes-n {
+  font-family: grotes;
+   text-transform: none;
+  font-weight: normal;
+}
+.grotes-u {
+  font-family: grotes;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "sansopen";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/sansopen/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/sansopen/OpenSansRegular.woff") format("woff"), url("../fonts/sansopen/OpenSansRegular.ttf") format("truetype"), url("../fonts/sansopen/OpenSansRegular.svg#neuzeit_groteskblack") format("svg");
+}
+.sansopen-n {
+  font-family: sansopen;
+  font-weight: normal;
+  text-transform: none;
+}
+.sansopen-u {
+  font-family: sansopen;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: "compac";
+  font-style: normal;
+  src: url("../fonts/zayn/30B39A_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/zayn/30B39A_0_0.woff2") format("woff2"), url("../fonts/zayn/30B39A_0_0.woff") format("woff"), url("../fonts/zayn/30B39A_0_0.ttf") format("truetype");
+}
+.zayn-n {
+  font-family: compac;
+   text-transform: none;
+  font-weight: normal;
+}
+.zayn-u {
+  font-family: compac;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  src: url("../fonts/roboto/Roboto-Light-webfont.eot") format("embedded-opentype"), url("../fonts/sansopen/Roboto-Light-webfont.svg") format("svg"), url("../fonts/roboto/Roboto-Light-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Light-webfont.ttf") format("truetype");
+}
+.roboto-n {
+  font-family: roboto;
+   text-transform: none;
+  font-weight: normal;
+}
+.roboto-u {
+  font-family: roboto;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
