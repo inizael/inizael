@@ -1,0 +1,141 @@
+/* IRREGULAR - COMPONENTES CSS */
+		*{
+			box-sizing: border-box;
+			padding: 0px;
+			margin: 0px;
+		}
+	/* DESKTOP */
+		/* CONTENEDORES */
+			.container {
+				width: 100%;
+				height: auto;
+				max-width: 1300px;
+				margin: 0 auto;
+				padding: 2px 10px;
+			}
+		/* CONTENEDORES */
+
+		/* LINES */
+			.line {
+				width: 100%;
+				height: auto;
+				display: flex;
+				flex-wrap: wrap;
+				padding: 2px 0px;
+			}
+		/* LINES */
+
+
+		/* SIZES STANDAR*/
+			.col-auto {
+				width: 100%;
+				height: auto;
+				padding: 0px 2px;
+			}
+			.col-12 {
+				width: 100%;
+				height: auto;
+				flex-shrink: 0;
+				flex-grow: 0;
+				padding: 0px 2px;
+			}
+			.col-9 {
+				width: 75%;
+				height: auto;
+				flex-shrink: 0;
+				flex-grow: 0;
+				padding: 0px 2px;
+			}
+			.col-8 {
+				width: 66.6%;
+				height: auto;
+				flex-shrink: 0;
+				flex-grow: 0;
+				padding: 0px 2px;
+			}
+			.col-6 {
+				width: 50%;
+				height: auto;
+				flex-shrink: 0;
+				flex-grow: 0;
+				padding: 0px 2px;
+			}
+			.col-4 { 
+				width: 33.3%;
+				height: auto;
+				flex-shrink: 0;
+				flex-grow: 0;
+				padding: 0px 2px;
+			}
+			.col-3 { 
+				width: 25%;
+				height: auto;
+				flex-shrink: 0;
+				flex-grow: 0;
+				padding: 0px 2px;
+			}
+			.col-2 { 
+				width: 16.6%;
+				height: auto;
+				flex-shrink: 0;
+				flex-grow: 0;
+				padding: 0px 2px;
+			}
+		/* SIZES STANDAR*/
+	/* MIDDLE */
+	@media only screen and (max-width: 768px) {
+	   /* CONTENEDORES */
+			.container {
+				padding: 2px 5px;
+			}
+		/* CONTENEDORES */
+
+		/* SIZES STANDAR*/
+			.col-9 {
+				width: 100%;
+			}
+			.col-8 {
+				width: 100%;
+			}
+			.col-4 { 
+				width: 50%;
+				flex-grow: 1;
+			}
+			.col-3 { 
+				width: 50%;
+				flex-grow: 1;
+			}
+			.col-2 { 
+				width: 50%;
+				flex-grow: 1;
+			}
+		/* SIZES STANDAR*/
+	}
+	/* SMALL */
+	@media only screen and (max-width: 576px) {
+	    /* CONTENEDORES */
+			.container {
+				padding: 2px 2px;
+			}
+		/* CONTENEDORES */
+
+		/* SIZES STANDAR*/
+			.col-6 {
+				width: 100%;
+				flex-shrink: 0;
+			}
+			.col-4 { 
+				width: 100%;
+				flex-shrink: 0;
+			}
+			.col-3 { 
+				width: 100%;
+				flex-shrink: 0;
+			}
+			.col-2 { 
+				width: 100%;
+				flex-shrink: 0;
+			}
+		/* SIZES STANDAR*/
+
+	}
