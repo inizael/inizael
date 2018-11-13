@@ -23,4 +23,22 @@
                 height: 100%;
                 font-size: 20px !important;
             }
+
+    /* TEXTOS Y COMPONENTES */
+        h1.title,
+        h2.title,
+        h3.title,
+        h4.title,
+        h5.title,
+        h6.title {
+            font-family: grotes;
+            text-transform: capitalize;
+            font-weight: bolder;
+            margin: 8px 0px;
+        }
+
+        h2.title {
+            font-size: 30px;
+            line-height: initial;
+        }
 }
