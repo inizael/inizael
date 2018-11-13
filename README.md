@@ -1,4 +1,3 @@
 #SxC
 
-*Introduccion*
-
+**Introduccion**
