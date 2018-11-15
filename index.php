@@ -26,7 +26,7 @@
                         <div podcast="49817574773" id="podcast-49817574773" class="line podcast-present">
                             <div class="line">
                                 <div class="col-6 artwork-content">
-                                    <img id="podcast-artwork-49817574773" src="https://i1.sndcdn.com/artworks-000346737129-40xohc-original.jpg" class="artwork" alt="Influence | S1E1">
+                                    <img id="podcast-artwork-49817574773" src="https://lh3.googleusercontent.com/eg3n4vytfoqA1rpgYCPQ_wIC41_3E2GCaX93hEPYJtrrSryKMtQ3VCwULsamMfaRKibiNR0jK4loQGoy=w302-h302-l90-rj" class="artwork" alt="Influence | S1E1">
                                 </div>
                                 <div class="col-6">
                                     <h4 class="title podcast-title">

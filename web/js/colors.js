@@ -7,7 +7,7 @@ function color(){
             var image = document.getElementById("podcast-artwork-" + id);
             if(image){
                 //console.log(vibrant.Swatch);
-                vibrant.from(image.src)/* .quality(10).clearFilters() */.getSwatches().then(function (palette) {
+                vibrant.from(image.src).quality(10).clearFilters().getSwatches().then(function (palette) {
                     var title = document.querySelector("[podcast='" + id + "'] .podcast-title");
                     var description = document.querySelector("[podcast='" + id + "'] p.podcast-description");
                     var xtrainfo = document.querySelector("[podcast='" + id + "'] span.xtrainfo");
